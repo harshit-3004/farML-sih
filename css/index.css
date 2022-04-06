@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Marck+Script&family=Neonderthaw&family=Satisfy&display=swap');
+
+/* font-family: 'Dongle', sans-serif;
+font-family: 'Marck Script', cursive;
+font-family: 'Neonderthaw', cursive;
+font-family: 'Satisfy', cursive; */
+
+
+#header{
+    display: flex;
+    justify-content: space-around;
+    background-color:#03bb85;
+    border-radius: 25px;
+}
+
+.title{
+    display: inline-block;
+    line-height: 5%;
+
+
+}
+
+#heading{
+    /*font-family: 'Dongle', sans-serif;*/
+    color: white;
+    font-size: 50px;
+    font-weight: normal;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 30px;
+	line-height: 42px;
+	text-transform: uppercase;
+	text-shadow: 0 2px white, 0 3px #777;
+    text-align: center;
+    
+    
+}
+
+#subline{
+    font-family: 'Marck Script', cursive;
+    color: aqua;
+    font-size: 20px;
+    
+    
+}
+
+.user{
+    margin: 5px;
+
+}
+
+.login{
+    background-color: white;
+    color: black ;
+    margin-top: 10px;
+}
+
+#login{
+    
+
+}
+
+#signup{
+
+}
