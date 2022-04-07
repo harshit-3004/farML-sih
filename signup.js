@@ -10,7 +10,7 @@ function validation(){
     }
     
 
-    else if(email ==""){
+    else if(email == ""){
         document.getElementById('username').innerHTML = "";
         document.getElementById('email').innerHTML = "Please fill the email field";
         return false;
@@ -22,9 +22,6 @@ function validation(){
         document.getElementById('password').innerHTML = "Please fill the password field";
         return false;
     }
-    
-    
-
     else if(conpass == ""){
         document.getElementById('password').innerHTML = "";
         document.getElementById('conpassword').innerHTML = "Please fill the confirm password field";
@@ -38,10 +35,6 @@ function validation(){
 
     else{
         document.getElementById('conpassword').innerHTML = "";
-        function redirect(){
-            window.location.href = 'login.html';
-
-        }
-    
-}
+        window.location.href = "login.html";
+    }
 }
