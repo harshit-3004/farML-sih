@@ -1,6 +1,6 @@
 function validation(){
     var user = document.getElementById('form2Example17').value;
-    var email = document.getElementById('form2Example07').value;
+    var phn = document.getElementById('form2Example47').value;
     var password = document.getElementById('form2Example27').value;
     var conpass = document.getElementById('form2Example37').value;
 
@@ -9,16 +9,14 @@ function validation(){
         return false;
     }
     
-
-    else if(email ==""){
-        document.getElementById('username').innerHTML = "";
-        document.getElementById('email').innerHTML = "Please fill the email field";
+    if(phn ==""){
+        document. getElementById('phnno').innerHTML = "Please fill the phone number field";
         return false;
     }
 
 
     else if(password == ""){
-        document.getElementById('email').innerHTML = "";
+        // document.getElementById('email').innerHTML = "";
         document.getElementById('password').innerHTML = "Please fill the password field";
         return false;
     }
@@ -39,7 +37,7 @@ function validation(){
     else{
         document.getElementById('conpassword').innerHTML = "";
         function redirect(){
-            window.location.href = 'login.html';
+            window.location.href = './login.html';
 
         }
     
